@@ -1,0 +1,14 @@
+
+####log default setting
+logging.file=my.log
+#logging.level.org.springframework.web=debug
+#logging.level.com.qianyang.first.web.LogController=debug  
+#logging.level.com.qianyang.first.common.LogHelper=warn 
+
+spring.datasource.url=jdbc:mysql://localhost:3306/test
+spring.datasource.username=root
+spring.datasource.password=root
+spring.datasource.driver-class-name=com.mysql.jdbc.Driver
+#let hibernate auto create / update DB table struct
+spring.jpa.properties.hibernate.hbm2ddl.auto=update
+
